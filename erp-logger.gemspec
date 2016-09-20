@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Thomas Carli"]
   spec.email         = ["thomas@procore.com"]
 
-  spec.summary       =  "Write a short summary, because Rubygems requires one."
-  spec.description   =  "Write a longer description or delete this line"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       =  "The Erp Logger is used to track events and conversations from start to finish between Procore and our Erp Microservices"
+  spec.homepage      =  "https://github.com/thomascarli/erp-logger"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
