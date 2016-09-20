@@ -26,10 +26,7 @@ module Erp
       validate_required_hash_keys(hash)
       log_message(level, hash)
     rescue StandardError => e
-      ProcoreOS::Errors::Handler.handle(error: e,
-                                        additional_metadata: hash,
-                                        severity: :warn,
-                                        tool: :erp)
+      puts e
     end
 
     private_class_method
