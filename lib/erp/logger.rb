@@ -46,7 +46,7 @@ module Erp
     end
 
     def self.logger
-      Rails.configuration.erp_logger
+      Rails.config.erp_logger
     end
 
     #wish list:
