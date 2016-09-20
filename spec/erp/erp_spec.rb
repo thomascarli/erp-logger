@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'erp-logger'
+require 'erp/version'
 
 describe Erp do
   it 'has a version number' do
