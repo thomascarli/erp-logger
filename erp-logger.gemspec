@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'erp/logger/version'
+require 'erp/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "erp-logger"
-  spec.version       = Erp::Logger::VERSION
+  spec.version       = Erp::VERSION
   spec.authors       = ["Thomas Carli"]
   spec.email         = ["thomas@procore.com"]
 
