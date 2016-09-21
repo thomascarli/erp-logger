@@ -1,8 +1,6 @@
-# Erp::Logger
+# Erp Logger
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/erp/logger`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The purpose of this gem is to abstract out the process of logging conversations between our different ERP systems.  Using the Erp Logger we are now able to track conversations in detail and gain additional insight about each step of our requests.
 
 ## Installation
 
@@ -32,5 +30,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/erp-logger.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/thomascarli/erp-logger.
